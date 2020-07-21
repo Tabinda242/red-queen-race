@@ -100,7 +100,6 @@ const RedQueenRace = () => {
         foreground2Movement.getAnimation().playbackRate = playbackratebackground
         background1Movement.getAnimation().playbackRate = playbackratebackground
         background2Movement.getAnimation().playbackRate = playbackratebackground
-      tion().playbackRate = playbackratebackground
       }
     //   adjustBackgroundPlayback();
 
