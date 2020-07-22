@@ -121,9 +121,9 @@ const RedQueenRace = () => {
 
         setInterval( () => {
         
-            if (playbackrateQueen > .4) {
-                playbackrateQueen *= .9;
-              redQueen_alice.getAnimation().playbackRate = playbackrateQueen;   
+            if (redQueen_alice > .4) {
+                
+              redQueen_alice.getAnimation().playbackRate *= .9;   
             } 
             adjustBackgroundPlayback();
           }, 3000);
