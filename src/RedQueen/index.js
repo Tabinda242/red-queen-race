@@ -119,14 +119,14 @@ const RedQueenRace = () => {
         // foreground1Movement.getAnimation().currentTime = foreground1Movement.getAnimation().effect.getTiming().duration / 2;
         // background1Movement.getAnimation().currentTime = background1Movement.getAnimation().effect.getTiming().duration / 2;
 
-        // setInterval( function() {
+        setInterval( () => {
         
-        //     if (playbackrateQueen > .4) {
-        //         playbackrateQueen *= .9;
-        //       redQueen_alice.getAnimation().playbackRate = playbackrateQueen;   
-        //     } 
-        //     adjustBackgroundPlayback();
-        //   }, 3000);
+            if (playbackrateQueen > .4) {
+                playbackrateQueen *= .9;
+              redQueen_alice.getAnimation().playbackRate = playbackrateQueen;   
+            } 
+            adjustBackgroundPlayback();
+          }, 3000);
 
         document.addEventListener("click", goFaster);
         document.addEventListener("touchstart", goFaster);
